@@ -5,113 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio//Boxy Nagy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yeseva+One">
     <link rel="stylesheet" href="css/style.css"
-</head>
+    
+  </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="images/boxydesign-02.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <a class="navbar-brand" href="#">
+        <img src="images/boxydesign-02.png">
+        Boxy Nagy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Skills/About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
      
       <!-- Jumbotron -->
       <div class="jumbotron">
-        <img src="images/boxynagy.jpg" alt="Photo of the applicant" class="rounded-circle float-right">
-        <h1 class="display-4">Boxy Nagy</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <div class="jumboCopy">
+          <h1 class="display-4">Welcome to my portfolio</h1>
+          <p class="lead">Rock Nation brings you the most headbanging shows on the planet. Click below to find tickets for
+            your favorite bands</p>
+        </div>
+      </div>
       
       </div>
       <!-- Portfolio grid -->
       
-      <div class="container-fluid work mx-auto">
-        <h1>Work</h1>
-        <div class="row mx-auto">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+      <div class="container-fluid" id="work">
+       <div class="row">
+        <div class="col">
+         <h1 class="text-center">Work</h1>
+        </div>
+       </div> 
+        
+         
+          <div class="row">
+          <div class="card col bg-warning" style="width: 18rem;">
+            <img src="images/Untitled-2 copy.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Prework Study Guide</h5>
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://boxie999.github.io/prework-study-guide/" target="_blank" rel="noopener noreferrer" class="btn btn-warning border border-white text-center">Go to page</a>
+            </div>
+          </div>
 
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+          <div class="card col bg-info" style="width: 18rem;">
+            <img src="images/Untitled-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week 1 Challenge</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://boxie999.github.io/challenge_week1/" target="_blank" rel="noopener noreferrer" class="btn btn-info border border-white text-center">Go to page</a>
+            </div>
+          </div>
+
+          <div class="card col bg-danger position-relative" style="width: 18rem;">
+            <img src="images/Untitled-2 copy 4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week 2 Challenge</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://boxie999.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="btn btn-danger border border-white stretched-link">Go to page</a>
+            </div>
+          </div>
+                
             
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://placehold.co/600x400.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>  
         </div>
       </div>
 
       <!-- Skills/About -->
-      <div class="conatiner">
-        <div class="row">
-            <div class="col-6">
-            <div class="jumbotron">
-                <h1 class="display-4">Skills</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-               </div>
-            </div>   
-
-            <div class="col-6">
-            <div class="jumbotron">
-                <h1 class="display-4">About/Contact</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            </div>
-            </div>  
+      <div class="container-fluid about-skills" id="about">
+         <div class="row">
+          
+          <div class="card bg-light col skills" style="width: 4rem;">
+            <h1 class="text-center">Skills</h1>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML5</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">Bootstrap4</li>
+              <li class="list-group-item">Git</li>
+              <img class="card-img-overlay hand" src="images/woman-hand-holding-pen-7269745_1280.png">
+            </ul>
+          </div>
+          
+          
+          <div class="col about">
+            <h1 class="text-center">About Me</h1>
+            <img src="images/boxynagy.jpg" class="rounded-circle float-right" >
+            <p>Hello, my name is Boxy. I've been learning graphic design for a year now and I thought I would like to level up and learn coding too. So I enrolled Skills for Life bootcamp and I hope I will be able to start a new career. I'm really enjoying it so far! In my freetime I love travelling, riding the bicycle, painting and going to the theatre. I hope I can work for a trusted company where I can use my skills and learn new ones.</p>
+          </div>
+      
         </div>
-      </div>
+        </div>  
+        
+      <!-- Footer -->  
+
+      <section id="contact">
+        <div class="footer">
+          <h2>Contact Me</h2>
+          <a href="mailto:cyclewarriorgirl@gmail.com" target="_blank" rel="noopener noreferrer">E-mail</a>
+        </div>
+      </section> 
+  
+         
+          
+          
+      
     
     
 
