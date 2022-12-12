@@ -1,5 +1,5 @@
 body {
-  font-family: 'Yeseva One', serif;
+  font-family: 'Courgette', serif;
   background-image: url("../images/photo-1629968417850-3505f5180761.jpg");
   background-attachment: fixed;
 }
@@ -50,12 +50,17 @@ body {
     color: white;
     text-align: center;
   }
+ 
+  .display-4 {
+    font-family: Bree Serif;
+  }
 
   .card {
   margin: 2rem;
   display: flex;
   flex-direction: column;
 }
+
 .card img {
   padding: 1rem;
 }
@@ -89,5 +94,10 @@ body {
 }
 .hand {
   height: 400px;
-  margin-left: 200px;
+  margin-left: 80px;
+  margin-bottom: 100px;
 }
+.list-group-item {
+  background-color: rgba(223, 223, 83, 0.617);
+}
+
