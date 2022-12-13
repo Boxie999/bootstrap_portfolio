@@ -85,7 +85,7 @@ body {
 }
 
 .about img {
-  height: 200px;
+  height: 250px;
   padding: 1rem;
 }
 .skills, .about {
@@ -93,11 +93,20 @@ body {
 }
 .about-skills {
   background-color: rgba(0, 0, 0, 0.512);
-  display: flex;
-  justify-content: center;
 }
-.about h1, .about p {
+.about-skills h1, .about-skills p {
   color: white;
+}
+.about-skills h1 {
+  margin-bottom: 20px;
+}
+.about-skills p {
+  font-size: 20px;
+}
+.list-group {
+  font-size: 30px;
+  color: white;
+  
 }
 
 .footer {
@@ -114,7 +123,5 @@ body {
   color: white;
 }
 
-.list-group-item {
-  background-color: rgba(223, 223, 83, 0.617);
-}
+
 
