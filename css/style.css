@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courgette', serif;
+  font-family: 'Raleway', serif;
   background-image: url("../images/photo-1629968417850-3505f5180761.jpg");
   background-attachment: fixed;
 }
@@ -15,7 +15,9 @@ body {
     margin-left: auto;
     margin-right: 0 !important;
   }
-
+.navbar-toggler-icon {
+  color: white;
+}
   
   .navbar-brand img {
     padding-right: 15px;
@@ -52,13 +54,30 @@ body {
   }
  
   .display-4 {
-    font-family: Bree Serif;
+    font-family: Oswald;
+    font-size: 65px;
   }
-
+  .portfolio {
+    display: flex;
+    justify-content: center;
+  }
+ 
   .card {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.472);
+}
+.card:hover {
+  animation: rotation 2s linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .card img {
@@ -74,6 +93,8 @@ body {
 }
 .about-skills {
   background-color: rgba(0, 0, 0, 0.512);
+  display: flex;
+  justify-content: center;
 }
 .about h1, .about p {
   color: white;
@@ -92,11 +113,7 @@ body {
 .footer a {
   color: white;
 }
-.hand {
-  height: 400px;
-  margin-left: 80px;
-  margin-bottom: 100px;
-}
+
 .list-group-item {
   background-color: rgba(223, 223, 83, 0.617);
 }
