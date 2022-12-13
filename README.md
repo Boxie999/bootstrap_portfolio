@@ -16,3 +16,5 @@ This portfolio page has:
 
 I used bootstrap 4 classes to make the website responsive to different screen sizes.
 
+Here is the screenshot of the page:
+![Screenshot 2022-12-13 at 21 37 07](https://user-images.githubusercontent.com/118014637/207449758-2cff19d1-4a95-487c-bd80-abc3f9685b51.jpg)
